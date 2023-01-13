@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1000px;
+  margin: 20px auto;
+  min-height: 100px;
+  background-color: bisque;
+  text-align: center;
+}
+.top {
+  height: 100px;
+  background-color: coral;
+
+  padding: 15px 0;
+}
+
+.top-small {
+  width: 60%;
+  height: 70px;
+  border: 1px solid #000;
+  background-color: green;
+  margin: 0 auto;
+}
+
+.bottom {
+  height: 150px;
+  background-color: hotpink;
+}
+
+.bottom::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.bottom-small {
+  width: 200px;
+  height: 150px;
+  float: left;
+}
+
+.violet {
+  background-color: violet;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.pink {
+  background-color: pink;
+}
+.red {
+  background-color: red;
+}
+.darkblue {
+  background-color: darkblue;
+}
+
+.text {
+  background-color: aqua;
+  height: 80px;
+  width: 150px;
+  margin: 10px auto;
+  padding-top: 25px;
+}
+
+.center {
+  width: 1000px;
+
+  outline: 1px solid black;
+  margin: 0px auto;
+}
+
+.big {
+  width: 333px;
+  height: 400px;
+  background-color: aqua;
+
+  float: left;
+}
+.text {
+  width: 60%;
+  height: 100px;
+  background-color: brown;
+  margin: 10px auto;
+}
+.numbers {
+  width: 50%;
+  height: 250px;
+  background-color: lightcoral;
+  margin: 40px auto 0;
+}
+.number-3 {
+  height: 80px;
+  background-color: lightseagreen;
+}
+.number-4,
+.number-5 {
+  float: left;
+  width: 50%;
+  height: 170px;
+}
+
+.number-4 {
+  background-color: yellow;
+}
+.number-5 {
+  background-color: tomato;
+}
+.block-a {
+  background-color: chocolate;
+  height: 40px;
+}
+.block-b,
+.block-c,
+.block-d {
+  width: 111px;
+  height: 360px;
+  float: left;
+}
+.block-b {
+  background-color: bisque;
+}
+.block-c {
+  background-color: violet;
+}
+.block-d {
+  background-color: darkblue;
+}
+.block-b1 {
+  background-color: brown;
+  width: 50%;
+  margin-top: 62px;
+  height: 280px;
+  float: left;
+}
+.block-b2 {
+  background-color: yellow;
+  width: 50%;
+  margin-top: 221px;
+  height: 120px;
+  float: left;
+}
+.c2 {
+  margin-top: 50px;
+  background-color: rgb(102, 102, 251);
+  height: 80px;
+}
+.c3 {
+  background-color: darksalmon;
+  height: 81px;
+}
+.c4 {
+  background-color: darkgrey;
+}
+.c5 {
+  background-color: deeppink;
+}
+.c4,
+.c5 {
+  float: left;
+  width: 50%;
+  height: 130px;
+}
+.d1 {
+  margin-top: 50px;
+  background-color: rgb(56, 253, 59);
+  height: 80px;
+}
+.d3 {
+  background-color: rgb(224, 51, 60);
+  height: 211px;
+}
+
+.I {
+  background-color: teal;
+  height: 40px;
+}
+.II {
+  background-color: fuchsia;
+  height: 40px;
+}
+.III {
+  height: 40px;
+  background-color: darkorange;
+}
+.I,
+.II,
+.III {
+  width: 111px;
+  height: 30px;
+  float: left;
+}
+.block-column {
+  height: 90px;
+  background-color: blanchedalmond;
+}
+.VI {
+  background-color: firebrick;
+  height: 70px;
+}
+
+.inner {
+  height: 100px;
+  background-color: coral;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.inner-small {
+  width: 40%;
+  height: 30px;
+  background-color: green;
+  margin: 10px auto;
+}
+.inner-smaller {
+  float: left;
+  background-color: black;
+  width: 20%;
+  height: 10px;
+  margin-top: 20px;
+  margin-left: 42%;
+}
+.VII {
+  background-color: blueviolet;
+  height: 220px;
+  width: 40%;
+}
+
+.after-bottom {
+  margin-top: 400px;
+  height: 100px;
+  background-color: rgb(102, 40, 40);
+}
+.VII,
+.VIII {
+  float: left;
+  height: 220px;
+}
+.VIII {
+  background-color: rgb(233, 218, 9);
+  width: 60%;
+}
+.X,
+.IX {
+  margin-top: 40px;
+  float: left;
+  width: 50%;
+  height: 80px;
+}
+.X {
+  background-color: aqua;
+}
+.IX {
+  background-color: darkgreen;
+}
+.XI {
+  margin-top: 50px;
+  background-color: indianred;
+  width: 100%;
+  height: 151px;
+}
